@@ -1061,6 +1061,7 @@ body {
 }
 
 .me {
+  max-width: 1200px;
   height: 480px;
 }
 /*# sourceMappingURL=style.css.map */
