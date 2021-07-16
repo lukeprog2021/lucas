@@ -4,7 +4,7 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
-  position: fixed;
+  position: absolute;
   padding: 48px 16px;
 }
 
@@ -196,5 +196,5 @@
 
 .me{
   max-width: 1200px;
-  height: 480px;
+  padding: 8px 24px;
 }

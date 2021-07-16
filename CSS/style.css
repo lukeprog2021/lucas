@@ -798,7 +798,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  position: fixed;
+  position: absolute;
   padding: 48px 16px;
 }
 
@@ -1062,6 +1062,6 @@ body {
 
 .me {
   max-width: 1200px;
-  height: 480px;
+  padding: 8px 24px;
 }
 /*# sourceMappingURL=style.css.map */
