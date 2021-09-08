@@ -175,6 +175,8 @@
       </div>
       <div class="container-item"><img src="img/foto_lucas.jpg" alt="" /></div>
     </section>
+
+
     <section class="list" id="section-01">
       <div class="list-item py-6">
         <h2>Select Works</h2>
@@ -213,8 +215,9 @@
         <img src="img/lsvendas.jpeg" class="img-project" />
       </div>
     </section>
-        <section class="about" id="section-03">
-      <div class="me mt-2">
+    
+        <section class="about py-8" id="section-02">
+      <div class="me py-3">
         <h2 class="mb-7">About me</h2>
         <p>
           My name is Lucas, I'm 22 years old, currently studying Software
@@ -233,7 +236,8 @@
         </p>
       </div>
     </section>
-    <section class="get my-3" id="section-02">
+
+    <section class="get my-3" id="section-03">
       <div><h2>Get in touch</h2></div>
       <div>
         <a
@@ -363,25 +367,28 @@
           },
         });
         
-        gsap.from("#section-03 div", {
-          duration: 1,
+      
+        gsap.from("#section-02 ", {
+          duration: 3,
           y: 300,
           opacity: 0,
-          stagger: { each: .5 },
+          stagger: { each: .9 },
           ease: "power3.out",
           scrollTrigger: {
-            trigger: "#section-03",
+            trigger: "#section-02",
           },
         });
 
-        gsap.from("#section-02 div", {
+       
+
+        gsap.from("#section-03 div", {
           duration: 1,
           y: 300,
           opacity: 0,
           stagger: { each: 1 },
           ease: "power2.out",
           scrollTrigger: {
-            trigger: "#section-02",
+            trigger: "#section-03",
           },
         });
 
